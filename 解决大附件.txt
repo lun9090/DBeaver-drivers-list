@@ -12,11 +12,3 @@
 
 6、git add {上面搜索到的大文件路径}
 
-git lfs track "{./.git/lfs/objects/1d/31/1d3110c8af5427c210a430cedf5b92a4056af6ebe275f9c3f78f706691660ce3}"
-git lfs track "{./.git/lfs/objects/db/f8/dbf88351b56a6ddf768820cdeda1332d42f8122563bf0bd1fbf17d47b7c2a8c0}"
-git lfs track "{./.git/objects/pack/pack-e8dbb705bead3b5bbb6fbf1056d87ec6b6d29998.pack}"
-git lfs track "{上面搜索到的大文件路径}"
-git lfs track "{上面搜索到的大文件路径}"
-git add {./.git/lfs/objects/1d/31/1d3110c8af5427c210a430cedf5b92a4056af6ebe275f9c3f78f706691660ce3}
-git add {./.git/lfs/objects/db/f8/dbf88351b56a6ddf768820cdeda1332d42f8122563bf0bd1fbf17d47b7c2a8c0}
-git add {./.git/objects/pack/pack-e8dbb705bead3b5bbb6fbf1056d87ec6b6d29998.pack}
