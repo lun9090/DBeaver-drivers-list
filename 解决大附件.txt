@@ -1,0 +1,22 @@
+1、根据提示，我们先安装git-lfs
+
+2、执行git lfs install
+
+3、找到项目文件下大文件 find ./ -size +100M
+
+4、执行git lfs track "{上面搜索到的大文件路径}"
+
+5、执行git add .gitattributes
+
+-- 到此，如果是用的第三方软件管理代码，可以像正常提交就可以了
+
+6、git add {上面搜索到的大文件路径}
+
+git lfs track "{./.git/lfs/objects/1d/31/1d3110c8af5427c210a430cedf5b92a4056af6ebe275f9c3f78f706691660ce3}"
+git lfs track "{./.git/lfs/objects/db/f8/dbf88351b56a6ddf768820cdeda1332d42f8122563bf0bd1fbf17d47b7c2a8c0}"
+git lfs track "{./.git/objects/pack/pack-e8dbb705bead3b5bbb6fbf1056d87ec6b6d29998.pack}"
+git lfs track "{上面搜索到的大文件路径}"
+git lfs track "{上面搜索到的大文件路径}"
+git add {./.git/lfs/objects/1d/31/1d3110c8af5427c210a430cedf5b92a4056af6ebe275f9c3f78f706691660ce3}
+git add {./.git/lfs/objects/db/f8/dbf88351b56a6ddf768820cdeda1332d42f8122563bf0bd1fbf17d47b7c2a8c0}
+git add {./.git/objects/pack/pack-e8dbb705bead3b5bbb6fbf1056d87ec6b6d29998.pack}
